@@ -10,7 +10,7 @@ pr_number = int(os.getenv("PR_NUMBER"))
 
 # Geminiの設定
 genai.configure(api_key=gemini_key)
-model = genai.GenerativeModel('gemini-3.0-flash')
+model = genai.GenerativeModel('gemini-3-flash')
 
 # GitHubクライアントの準備
 g = Github(github_token)
