@@ -3,6 +3,7 @@ public class Main {
 		System.out.print("Hello");
 
 		//分岐判定
+		//try
 		for (int i = 1; i <= 100; i++) {
 			if (i % 3 == 0) {
 				System.out.println("Fizz");
