@@ -2,7 +2,7 @@ name: Gemini AI Review
 
 on:
   pull_request:
-    branches: [ main ] # GitHub ClassroomのFeedback PRを対象にする
+    branches: [ feedback ] # GitHub ClassroomのFeedback PRを対象にする
 
 jobs:
   review:
